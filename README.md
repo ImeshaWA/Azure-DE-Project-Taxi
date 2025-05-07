@@ -1,10 +1,10 @@
-# 🚀 Azure End-to-End Data Engineering Project
+# Azure End-to-End Data Engineering Project
 
 This project demonstrates a complete data engineering pipeline built on **Microsoft Azure** using the **NYC Taxi dataset**. It follows the **medallion architecture** (Bronze, Silver, Gold layers) and leverages key Azure services like **Data Factory**, **Databricks**, and **Data Lake Gen2** with **PySpark** and **Delta Lake** for data processing and storage.
 
 ---
 
-## 🧰 Technologies Used
+## Technologies Used
 
 - **Azure Data Factory** – Ingest data from API to Data Lake
 - **Azure Data Lake Gen2** – Store raw, cleaned and curated data
@@ -15,7 +15,7 @@ This project demonstrates a complete data engineering pipeline built on **Micros
 
 ---
 
-## 📁 Architecture Overview
+## Architecture Overview
 
 Source (API: NYC Taxi Data)
 │
@@ -38,14 +38,14 @@ Reporting (Databricks SQL / Power BI)
 ---
 
 
-## 🗃️ Dataset
+## Dataset
 
 - **NYC Yellow Taxi Trip Records**
 - Source: [NYC Taxi & Limousine Commission]([https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page))
 
 ---
 
-## 🧠 Key Learnings
+## Key Learnings
 
 - Set up Azure Data Factory for API-based ingestion
 - Write scalable transformation logic in Databricks using PySpark
@@ -55,7 +55,9 @@ Reporting (Databricks SQL / Power BI)
 
 ---
 
-## 🖼️ Architecture Diagram
+## Architecture Diagram
 
 ![Azure Data Engineering Architecture](screenshots/architecture.png)
 
+## Credits 
+![Based on the YouTube tutorial : ](https://www.youtube.com/watch?v=LQY2fvEv4cM)
