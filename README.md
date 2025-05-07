@@ -41,7 +41,7 @@ Reporting (Databricks SQL / Power BI)
 ## Dataset
 
 - **NYC Yellow Taxi Trip Records**
-- Source: [NYC Taxi & Limousine Commission]([https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page))
+- Source: [NYC Taxi & Limousine Commission]([https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page])
 
 ---
 
