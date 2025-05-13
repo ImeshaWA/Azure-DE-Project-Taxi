@@ -57,7 +57,7 @@ Reporting (Databricks SQL / Power BI)
 
 ## Architecture Diagram
 
-![Azure Data Engineering Architecture](screenshots/architecture.png)
+![Azure Data Engineering Architecture]()
 
 ## Credits 
 [Based on the YouTube tutorial](https://www.youtube.com/watch?v=LQY2fvEv4cM)
