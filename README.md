@@ -2,7 +2,6 @@
 
 This project demonstrates a complete data engineering pipeline built on **Microsoft Azure** using the **NYC Taxi dataset**. It follows the **medallion architecture** (Bronze, Silver, Gold layers) and leverages key Azure services like **Data Factory**, **Databricks**, and **Data Lake Gen2** with **PySpark** and **Delta Lake** for data processing and storage.
 
----
 
 ## Technologies Used
 
@@ -13,7 +12,6 @@ This project demonstrates a complete data engineering pipeline built on **Micros
 - **Parquet Format** – Efficient columnar storage format
 - **Medallion Architecture** – Bronze (raw), Silver (cleaned), Gold (curated)
 
----
 
 ## Architecture Overview
 
@@ -35,18 +33,12 @@ Gold Layer → Aggregated Data (Delta Lake)
 Reporting (Databricks SQL / Power BI)
 
 
----
-
-
 ## Dataset
-
 - **NYC Yellow Taxi Trip Records**
 - Source: [NYC Taxi & Limousine Commission](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 
----
 
 ## Key Learnings
-
 - Set up Azure Data Factory for API-based ingestion
 - Write scalable transformation logic in Databricks using PySpark
 - Store and manage data efficiently using Delta Lake
